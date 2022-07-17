@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.UserContainer {
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  margin: 10px;
+  background-color: #F0F0F0;
+  width: 48%;
+}
+.UsersList {
+  margin: 5rem auto;
+}
+.UsersList h1 {
+  text-align: left;
+}
+.InfoButton {
+  display: flex;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.DeleteButton i{
+  color: red;
+  font-size: 2rem;
+  justify-content: center;
+}
+.DeleteButton button{
+  border:0;
+}
+.SelectButton i{
+  font-size: 2rem;
+  justify-content: center;
+}
+.SelectButton button{
+  border:0;
+}
+.InfoInput {
+width: 23.6rem;
+text-align: center;
+}
+.UserInput {
+  text-align: center;
+  }
+.InfoList i{
+color:rgb(25, 153, 25)
+}
+.ModalButton {
+  display: flex;
+  margin: 40px;
+  text-align: right;
+  position:fixed;
+  top:0px;
+  right: 0px;
+}
