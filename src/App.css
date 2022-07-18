@@ -1,9 +1,12 @@
 body {
   background-image: url(./images/audit_readiness.webp);
+  background-position: center;
 }
+
 .App {
   text-align: center;
 }
+
 .UserContainer {
   border: 2px solid black;
   border-radius: 15px;
@@ -14,13 +17,16 @@ body {
   background-color: #F0F0F0;
   width: 48%;
 }
+
 .UsersList {
   margin: 5rem auto;
 }
+
 .UsersList h1 {
   text-align: left;
   margin-left: 3rem;
 }
+
 .InfoButton {
   display: flex;
   display: inline-flex;
@@ -28,37 +34,45 @@ body {
   justify-content: center;
   margin: 0;
 }
-.DeleteButton i{
+
+.DeleteButton i {
   color: red;
   font-size: 2rem;
   justify-content: center;
 }
-.DeleteButton button{
-  border:0;
+
+.DeleteButton button {
+  border: 0;
 }
-.SelectButton i{
+
+.SelectButton i {
   font-size: 2rem;
   justify-content: center;
 }
-.SelectButton button{
-  border:0;
+
+.SelectButton button {
+  border: 0;
 }
+
 .InfoInput {
-width: 23.6rem;
-text-align: center;
+  width: 23.6rem;
+  text-align: center;
 }
+
 .UserInput {
   text-align: center;
-  }
-.InfoList i{
-color:rgb(25, 153, 25)
 }
+
+.InfoList i {
+  color: rgb(25, 153, 25)
+}
+
 .ModalButton {
   display: flex;
   margin: 40px;
   text-align: right;
-  position:fixed;
-  top:0px;
+  position: fixed;
+  top: 0px;
   right: 0px;
 }
 
@@ -66,5 +80,32 @@ color:rgb(25, 153, 25)
 @media screen and (max-width:999px) {
   .UserContainer {
     width: 70%;
+  }
+}
+
+@media screen and (max-width:443px) {
+  .UserInput {
+    width: 11rem;
+    margin-bottom: 1rem;
+  }
+  .InfoInput {
+    width: 22rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width:417px) {
+  .UserInput {
+    width: 9rem;
+  }
+  .InfoInput {
+    width: 18rem;
+  }
+  .UserContainer {
+    width: 85%;
+  }
+  .InfoList{
+    display: flex;
+    display: block;
   }
 }
