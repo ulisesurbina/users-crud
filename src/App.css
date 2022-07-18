@@ -1,7 +1,9 @@
+body {
+  background-image: url(./images/audit_readiness.webp);
+}
 .App {
   text-align: center;
 }
-
 .UserContainer {
   border: 2px solid black;
   border-radius: 15px;
@@ -17,6 +19,7 @@
 }
 .UsersList h1 {
   text-align: left;
+  margin-left: 3rem;
 }
 .InfoButton {
   display: flex;
@@ -57,4 +60,11 @@ color:rgb(25, 153, 25)
   position:fixed;
   top:0px;
   right: 0px;
+}
+
+
+@media screen and (max-width:999px) {
+  .UserContainer {
+    width: 70%;
+  }
 }
